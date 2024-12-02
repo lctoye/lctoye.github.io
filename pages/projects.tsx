@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function Projects() {
     const projects = [
       {
@@ -45,9 +47,11 @@ export default function Projects() {
               key={index}
               className="bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition"
             >
-              <img
+              <Image
                 src={project.image}
                 alt={project.title}
+                width={500}
+                height={200}
                 className="w-full h-40 object-cover rounded-md mb-4"
               />
               <h2 className="text-2xl font-semibold">{project.title}</h2>

@@ -1,10 +1,14 @@
+import Image from 'next/image';
+
 export default function Home() {
   return (
     <div className="text-center">
-      <img
-        src="profile.jpg"
+      <Image
+        src="/profile.jpg"
         alt="Profile"
-        className="w-32 h-32 rounded-full mx-auto mb-4"
+        width={128}
+        height={128}
+        className="rounded-full mx-auto mb-4"
       />
       <h1 className="text-pink text-4xl font-bold mb-2">Liam Toye</h1>
       <p className="text-gray mb-6">Software Developer</p>
