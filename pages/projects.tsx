@@ -4,7 +4,7 @@ export default function Projects() {
     const projects = [
       {
         title: "Fragments Microservice",
-        image: "fragments.png",
+        image: "/fragments.png",
         description:
           "Microservice for authenticated users to upload and retrieve diverse file objects.",
         tags: ["AWS", "Docker", "JavaScript", "Express"],
@@ -14,9 +14,9 @@ export default function Projects() {
       },
       {
         title: "StudyHome",
-        image: "studyhome.png",
+        image: "/studyhome.png",
         description:
-          "Unified notetaking and assessment tracking platform for students, featuring AI-powered automatic parsing of course materials.",
+          "Student notetaking & assessment tracking platform. Features AI-powered automatic document parsing.",
         tags: ["Next.js", "React", "SQL", "Auth", "Express", "AI"],
         links: {
           github: "https://github.com/marcusgeorgievski/studyhome",
@@ -25,7 +25,7 @@ export default function Projects() {
       },
       {
         title: "GestureRunner",
-        image: "gesturerunner.png",
+        image: "/gesturerunner.png",
         description:
           "Hand gesture-controlled endless runner game in Python, leveraging Pygame & OpenCV.",
         tags: ["Python", "Game Dev", "OpenCV", "Pygame"],
@@ -45,7 +45,7 @@ export default function Projects() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="bg-gray-900 p-4 rounded-lg shadow-lg hover:shadow-xl transition"
+              className="bg-nosferatu-800 p-4 rounded-lg shadow-lg hover:shadow-xl transition"
             >
               <Image
                 src={project.image}

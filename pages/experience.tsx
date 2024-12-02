@@ -5,14 +5,14 @@ export default function Experience() {
         role: "Project Specialist",
         duration: "2015 - 2019",
         description:
-          "Managed LED lighting conversion projects for apartments and condominiums, working closely with clients throughout the entire process from proposal to installation.",
+          "Managed LED lighting conversion projects for condominiums and other facilities, working closely with clients throughout the entire process from proposal to installation.",
       },
       {
         company: "Pat's Home Hardware",
         role: "Retail Sales Associate",
         duration: "2007 - 2019",
         description:
-          "Implemented responsive designs using HTML, CSS, and JavaScript. Collaborated with designers and backend developers to improve the user experience.",
+          "",
       },
     ];
   
@@ -25,8 +25,8 @@ export default function Experience() {
               key={index}
               className="border p-4 rounded shadow-md hover:shadow-lg transition duration-300"
             >
-              <h2 className="text-blue text-2xl font-semibold">{exp.role}</h2>
-              <h3 className="text-xl text-gray-300">{exp.company}</h3>
+              <h2 className="text-blue text-xl font-semibold">{exp.role}</h2>
+              <h3 className="text-lg text-gray-300">{exp.company}</h3>
               <p className="text-gray-500 italic">{exp.duration}</p>
               <p className="mt-2">{exp.description}</p>
             </div>
