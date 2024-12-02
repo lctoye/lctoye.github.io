@@ -1,14 +1,13 @@
 {
   "name": "lctoye.github.io",
-  "homepage": "https://liamtoye.me",
+  "homepage": "liamtoye.me",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "export": "next export"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.0.3",
