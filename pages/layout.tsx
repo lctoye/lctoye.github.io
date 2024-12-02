@@ -11,8 +11,8 @@ const Layout = ({ children }: LayoutProps) => (
       <nav className="container mx-auto flex justify-between">
         <Link href="/" className="hover:underline">About Me</Link>
         <div className="space-x-4">
-          <a href="/experience" className="hover:underline">Experience</a>
-          <a href="/projects" className="hover:underline">Projects</a>
+          <Link href="/experience" className="hover:underline">Experience</Link>
+          <Link href="/projects" className="hover:underline">Projects</Link>
         </div>
       </nav>
     </header>
