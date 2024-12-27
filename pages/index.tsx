@@ -14,7 +14,7 @@ export default function Home() {
       <p className="text-gray mb-6">Software Developer</p>
       <div className="space-x-4 mb-6">
         <a
-          href="https://github.com/yourusername"
+          href="https://github.com/lctoye"
           className="text-green hover:underline"
         >
           GitHub
