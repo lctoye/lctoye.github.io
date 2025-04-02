@@ -4,10 +4,10 @@ export default function Projects() {
     const projects = [
       {
         title: "Fragments Microservice",
-        image: "/fragments.png",
+        image: "https://github.com/marcusgeorgievski/studyhome/blob/main/assets/arch.png?raw=true",
         description:
           "Microservice for authenticated users to upload and retrieve diverse file objects.",
-        tags: ["AWS", "Docker", "JavaScript", "Express"],
+        tags: ["AWS", "Docker", "JavaScript", "Express", "Auth"],
         links: {
           github: "https://github.com/lctoye/fragments",
         },
@@ -20,7 +20,7 @@ export default function Projects() {
         tags: ["Next.js", "React", "SQL", "Auth", "Express", "AI"],
         links: {
           github: "https://github.com/marcusgeorgievski/studyhome",
-          liveDemo: "https://prj-frontend.vercel.app",
+          liveDemo: "https://studyhome.vercel.app/",
         },
       },
       {
